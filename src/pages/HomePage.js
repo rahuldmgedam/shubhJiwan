@@ -14,10 +14,20 @@ import Navbar3 from "../components/Navbar3";
 import SearchForMatches from "../components/SearchForMatches";
 import MembershipPlans from "../components/MembershipPlans";
 import GirlsProfiles from "../components/GirlsProfiles";
+import BoysProfiles from "../components/BoysProfiles";
+import TermsConditions from "../components/TermsConditions";
+import PaymentDetails from "../components/PaymentDetails";
+// import HandshakeLoader from "../components/HandshakeLoader.js";
 
 const HomePage = () => {
   return (
+    <>
     <div>
+
+
+
+       {/* <HandshakeLoader/> */}
+       
       <Navbar />
       {/* <Navbar2/>  */}
       <Hero />
@@ -27,15 +37,19 @@ const HomePage = () => {
       <MatchedBy/>
       <BrideFroomCards/>
      <GirlsProfiles/>
+     <BoysProfiles/>
       <HomePage2/>
     
       {/* <ImageSlider/> */}
      
-      {/* <MembershipPlans/> */}
-      {/* <Pricing /> */}
+      {/* <MembershipPlans/>  */}
+      <PaymentDetails/>
+       <TermsConditions/>
+      <Pricing />
       <About />
-      <Footer />
+      <Footer /> 
     </div>
+    </>
   );
 };
 

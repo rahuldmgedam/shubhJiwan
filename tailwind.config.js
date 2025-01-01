@@ -12,6 +12,16 @@ module.exports = {
           "100%": { opacity: 1 },
         },
       },
+      fontFamily: {
+        bruno: ['Bruno Ace', 'sans-serif'],
+        josefin: ['Josefin Sans', 'sans-serif'],
+        laila: ['Laila', 'sans-serif'],
+        openSans: ['Open Sans', 'sans-serif'],
+        spaceGrotesk: ['Space Grotesk', 'sans-serif'],
+        syneMono: ['Syne Mono', 'monospace'],
+        syne: ['Syne', 'sans-serif'],
+      },
+
     },
   },
   plugins: [],

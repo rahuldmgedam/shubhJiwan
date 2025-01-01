@@ -205,7 +205,7 @@ const BrideFroomCards = () => {
   return (
     <div className="bg-gray-100 py-10">
       <div className="max-w-7xl mx-auto px-4">
-        <h1 className="text-3xl font-semibold font-sans tracking-wider text-[#6B46C1] text-center mb-8">
+        <h1 className="text-2xl uppercase font-bruno text-[#0069a7] text-center mb-8">
           Popular Profiles
         </h1>
 

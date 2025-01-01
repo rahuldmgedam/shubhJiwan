@@ -33,9 +33,9 @@ const MembershipPlans = () => {
   return (
     <>
      <div className="mb-10 flex ">
-       <div className="absolute">
+       {/* <div className="absolute">
        <Navbar/>
-        </div>
+        </div> */}
       </div> 
       <div className="bg-gray-100 py-10 mb-16">
         <div className="max-w-7xl mx-auto p-4">

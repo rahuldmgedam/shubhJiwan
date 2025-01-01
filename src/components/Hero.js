@@ -44,7 +44,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-4xl lg:text-5xl font-bold mb-6 text-[#6B46C1] tracking-wide"
+          className="text-4xl lg:text-5xl font-bold mb-6 text-[#334155]  tracking-wide"
         >
           Discover Your Perfect Match
         </motion.h1>
@@ -53,7 +53,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
-          className="text-xl lg:text-2xl mb-10 max-w-md text-[#4A4A4A]"
+          className="text-xl lg:text-2xl mb-10 max-w-md text-[#4B5563]"
         >
           Ready to meet someone special? Take the first step today and join a
           community where real connections are made.
@@ -64,7 +64,7 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.7, ease: "easeInOut", delay: 0.6 }}
           onClick={handleRegisterClick}
-          className="px-10 py-3 tracking-wider lg:px-12 lg:py-4 rounded-md shadow-lg text-lg lg:text-xl font-semibold bg-[#F472B6]  text-white  transition-transform transform hover:shadow-2xl hover:scale-105"
+          className="px-10 py-3 tracking-wider lg:px-12 lg:py-4 rounded-md shadow-lg text-lg lg:text-xl font-semibold bg-[#FF89B3]  text-white  transition-transform transform hover:shadow-2xl hover:scale-105"
           style={{
             borderRadius: "8px",
           }}

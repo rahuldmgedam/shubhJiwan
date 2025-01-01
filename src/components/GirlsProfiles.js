@@ -138,7 +138,7 @@ const GirlsProfiles = () => {
     <div className="bg-gray-100 py-10">
       <div className="max-w-7xl mx-auto px-4">
         {/* Header */}
-        <h1 className="text-3xl font-semibold tracking-tight  text-center text-purple-700 mb-12">
+        <h1 className="text-3xl uppercase font-semibold  font-syne  text-center text-[#0069a7] mb-12">
           Featured Girls Profiles
         </h1>
 
@@ -172,7 +172,7 @@ const GirlsProfiles = () => {
 
                 {/* View Profile Button */}
                 <div className="mt-4">
-                  <button className="w-full bg-purple-600 text-white py-2 rounded-md text-sm font-medium uppercase hover:bg-purple-800 transition-all duration-300">
+                  <button className="w-full bg-[#0069a7] text-white py-2 rounded-md text-sm font-medium uppercase hover:bg-purple-800 transition-all duration-300">
                     View Profile
                   </button>
                 </div>

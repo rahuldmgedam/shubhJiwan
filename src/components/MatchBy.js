@@ -185,8 +185,8 @@ const MatchedBy = () => {
       onMouseLeave={() => setIsPaused(false)} // Resume auto-scroll on mouse leave
     >
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h3 className="text-2xl font-bold text-gray-500 mb-10 font-serif">
-          Success Stories by <span className="text-[#6B46C1]">SHUBH JIWAN</span>
+        <h3 className="text-2xl font-semibold  text-gray-500 mb-10 font-laila">
+          Success Stories by <span className="text-[#ec4899]">SHUBH JIWAN</span>
         </h3>
 
         <div className="relative">

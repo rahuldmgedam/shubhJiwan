@@ -1,3 +1,7 @@
+Shubh Jivan Samajik Vivha Sanstha 
+
+#0069a7 
+
 1. General Color Palette
 Primary Color: #D72638 (Romantic Red) – for buttons and highlights.
 Secondary Color: #F49D1A (Sunset Orange) – for call-to-action accents.

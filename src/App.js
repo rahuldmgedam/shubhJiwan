@@ -16,6 +16,7 @@ import Profiles from "./components/Profiles";
 import MembershipPlans from "./components/MembershipPlans";
 import Contact from "./components/Contact";
 import ProfileDetails from "./components/ProfileDetails";
+import ProfilePage from "./pages/ProfilePage";
 
 function App() {
   return (
@@ -23,12 +24,14 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<HomePage />} />
+          
           {/* <Route path="/register" element={<Register />} /> */}
           <Route path="/register" element={<RegistrationForm />} />
           <Route path="/loginProfile" element={<LoginDashboard/>} />
 
           <Route path="/memberships" element={<MembershipPlans/>} />
           <Route path="/contact" element={<Contact/>} />
+          <Route path="/profilePage" element={<ProfilePage/>} />
           <Route path="/profileDetails" element={<ProfileDetails/>} />
 
           <Route path="/login" element={<Login />} />

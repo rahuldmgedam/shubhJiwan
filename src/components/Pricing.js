@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 const plans = [
   {
     id: 1,
-    name: "Basic Plan",
-    price: "₹ 2999/month",
+    name: "Gold Plan",
+    price: "₹ 3500 ",
     features: [
-      "Profile creation",
-      "Basic search filters",
+      "For 6 Months",
+      "200 profile searches",
       "Limited messaging",
       "Access to public profiles",
     ],
@@ -15,11 +15,11 @@ const plans = [
   },
   {
     id: 2,
-    name: "Standard Plan",
-    price: "₹ 4999/month",
+    name: "Platinum Plan",
+    price: "₹ 4500",
     features: [
-      "Everything in Basic Plan",
-      "Advanced search filters",
+      "For one year",
+      "500 profile searches",
       "Unlimited messaging",
       "Access to private profiles",
       "Profile verification",
@@ -28,11 +28,11 @@ const plans = [
   },
   {
     id: 3,
-    name: "Premium Plan",
-    price: "₹ 9999/month",
+    name: "Kohinoor Plan",
+    price: "₹ 5000",
     features: [
-      "Everything in Standard Plan",
-      "Personal matchmaking assistance",
+      "Unlimited access",
+      "Unlimited searches",
       "Priority support",
       "Advanced compatibility matching",
       "Exclusive events and webinars",
