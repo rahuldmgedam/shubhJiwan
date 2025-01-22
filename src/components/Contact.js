@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import SimpleForm from "../pages/SimpleForm";
 
 const Contact = () => {
   const [messageSent, setMessageSent] = useState(false);
@@ -179,6 +180,7 @@ const Contact = () => {
       </div>
     </section>
     <div>
+      {/* <SimpleForm/> */}
     <Footer/>
   </div>
   </>

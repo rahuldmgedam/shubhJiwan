@@ -14,7 +14,7 @@ export const profilesReducer = (state = initialState, action) => {
     case ADD_PROFILE:
       return { ...state, profiles: [...state.profiles, action.payload] };
     default:
-      return state;
+      return state; 
   }  
 };
 

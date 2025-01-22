@@ -150,8 +150,10 @@ import React, { useState } from "react";
 import p2 from "../images/popular2.jpg";
 import p3 from "../images/popular3.jpg";
 import p1 from "../images/popular1.jpg";
+import { useNavigate } from "react-router-dom";
 
 const BrideFroomCards = () => {
+  const navigate = useNavigate()
   const profiles = [
     {
       id: "Shital Mahadev Pawar",
@@ -206,7 +208,7 @@ const BrideFroomCards = () => {
     <div className="bg-gray-100 py-10">
       <div className="max-w-7xl mx-auto px-4">
         <h1 className="text-2xl uppercase font-bruno text-[#0069a7] text-center mb-8">
-          Popular Profiles
+          Popular Profiles 
         </h1>
 
         {/* Profile Cards */}
@@ -280,8 +282,8 @@ const BrideFroomCards = () => {
               <p className="text-red-500 font-medium">
                 Please log in to view full details!
               </p>
-              <button className="bg-red-500 text-white px-6 py-2 rounded shadow hover:bg-red-600 transition mt-4">
-                Log In
+              <button onClick={()=>navigate("/login")} className="bg-red-500 text-white px-6 py-2 rounded shadow hover:bg-red-600 transition mt-4">
+                Log In 
               </button>
             </div>
           </div>

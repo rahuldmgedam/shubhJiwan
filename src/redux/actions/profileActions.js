@@ -17,13 +17,25 @@ export const fetchProfiles = () => async (dispatch) => {
 // Fetch single profile details
 export const fetchProfileDetails = (id) => async (dispatch) => {
   try {
-    const response = await fetch(`/api/profiles/${id}`);
+    const response = await fetch(`https://shubh-backend-x8fa.onrender.com/profile/${id}`)
+    if(!response.ok){
+      throw new Error(`Error: ${response.statusText}`) 
+    }
     const data = await response.json();
-    dispatch({ type: FETCH_PROFILE_DETAILS, payload: data });
+    dispatch({type: FETCH_PROFILE_DETAILS, payload: data})
   } catch (error) {
     console.error("Error fetching profile details:", error);
   }
-};
+}
+// export const fetchProfileDetails = (id) => async (dispatch) => {
+//   try {
+//     const response = await fetch(`/api/profiles/${id}`);
+//     const data = await response.json();
+//     dispatch({ type: FETCH_PROFILE_DETAILS, payload: data });
+//   } catch (error) {
+//     console.error("Error fetching profile details:", error);
+//   }
+// };
 
 // Add new profile
 export const addProfile = (profile) => async (dispatch) => {

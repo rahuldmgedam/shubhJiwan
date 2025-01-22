@@ -101,7 +101,7 @@ const GirlsProfiles = () => {
   const profiles = [
     {
       id: "MI-1391468",
-      name: "Samiksha Chetan Shelke",
+      name: "Samiksha  Shelke",
       age: 25,
       location: "Delhi, India",
       profession: "Software Engineer",
@@ -110,7 +110,7 @@ const GirlsProfiles = () => {
    
     {
       id: "MI-1384560",
-      name: "Apurva Chintaman Bhosle",
+      name: "Apurva Bhosle",
       age: 26,
       location: "Kerala, India",
       profession: "Doctor",
@@ -118,7 +118,7 @@ const GirlsProfiles = () => {
     },
     {
       id: "MI-1389490",
-      name: "Mitali Rajendra Gaykwad",
+      name: "Mitali  Gaykwad",
       age: 28,
       location: "Mumbai, India",
       profession: "Graphic Designer",
@@ -126,7 +126,7 @@ const GirlsProfiles = () => {
     },
     {
       id: "MI-1373342",
-      name: "Nidhi Manoj Shinde",
+      name: "Nidhi Shinde", 
       age: 24,
       location: "Bangalore, India",
       profession: "Entrepreneur",
@@ -166,9 +166,9 @@ const GirlsProfiles = () => {
                   {profile.name}
                 </h2>
                 <p className="text-sm text-gray-600">
-                  {profile.age} years | {profile.profession}
+                  {/* {profile.age} years | {profile.profession} */}
                 </p>
-                <p className="text-sm text-gray-500">{profile.location}</p>
+                {/* <p className="text-sm text-gray-500">{profile.location}</p> */}
 
                 {/* View Profile Button */}
                 <div className="mt-4">

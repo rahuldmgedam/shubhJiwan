@@ -291,7 +291,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-2">
           <img className="h-12 w-16" src={logo} alt="Logo" />
           <a href="/" className="text-2xl font-bold text-pink-400">
-            SHUBH JIWAN
+            SHUBH JIWAN 
           </a>
         </div>
 
@@ -355,7 +355,7 @@ const Navbar = () => {
           </Link>
           <Link to="/login">
             <button className=" border-2 border-pink-400 text-pink-400 px-4 py-1 rounded-lg uppercase hover:bg-pink-400 hover:text-white hover:shadow-lg transition duration-300">
-              Login
+              Login 
             </button>
           </Link>
           <Link className="" to="/register">
@@ -388,7 +388,7 @@ const Navbar = () => {
                 Profiles
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to="/memberships"
                 onClick={toggleMenu}
@@ -396,7 +396,7 @@ const Navbar = () => {
               >
                 Memberships
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 to="/contact"

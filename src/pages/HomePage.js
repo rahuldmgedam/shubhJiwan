@@ -33,7 +33,7 @@ const HomePage = () => {
       <Hero />
     
       {/* <Reviews /> */}
-      <SearchForMatches/>
+      {/* <SearchForMatches/> */}
       <MatchedBy/>
       <BrideFroomCards/>
      <GirlsProfiles/>
